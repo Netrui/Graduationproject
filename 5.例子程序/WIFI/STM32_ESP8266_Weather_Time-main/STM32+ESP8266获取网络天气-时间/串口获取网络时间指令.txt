@@ -1,0 +1,6 @@
+AT+CWMODE=3
+AT+RST
+AT+CWJAP="HUAWEI nova 5","b12345678"
+AT+CIPSTART="TCP","cgi.im.qq.com",80
+AT+CIPSEND=100
+GET http://cgi.im.qq.com

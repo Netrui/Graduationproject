@@ -1,0 +1,80 @@
+AT  ack:OK
+AT  ack:OK
+ATE0  ack:OK
+AT+CWMODE=1  ack:OK
+AT+RST  ack:OK
+AT+CIPMUX=0  ack:OK
+AT+CWJAP="HUAWEI nova 5","b12345678"AT+CWJAP="HUAWEI nova 5","b12345678"  ack:WIFI GOT IP
+wifi init ok!AT+CIPSTART="TCP","api.seniverse.com",80  ack:OK
+AT+CIPMODE=1  ack:OK
+AT+CIPSEND  ack:OK
+start trans...
+jieshou->1dayjson = {"results":[{"location":{"id":"WT029G15ETRJ","name":"长沙","country":"CN","path":"长沙,长沙,湖南,中国","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"now":{"text":"�?","code":"9","temperature":"12"},"last_update":"2020-10-05T15:20:08+08:00"}]}
+wendu = 12
+1day_updata_time = 2020-10-05T15:20:08+08:00
+AT  ack:OK
+AT+CIPCLOSE  ack:OK
+AT+CIPSTART="TCP","api.seniverse.com",80  ack:OK
+AT+CIPMODE=1  ack:OK
+AT+CIPSEND  ack:OK
+start trans...
+jieshou->1dayjson = {"results":[{"location":{"id":"WT029G15ETRJ","name":"长沙","country":"CN","path":"长沙,长沙,湖南,中国","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"daily":[{"date":"2020-10-05","text_day":"小雨","code_day":"13","text_night":"小雨","code_night":"13","high":"14","low":"11","rainfall":"2.6","precip":"","wind_direction":"�?","wind_direction_degree":"0","wind_speed":"25.20","wind_scale":"4","humidity":"77"},{"date":"2020-10-06","text_day":"�?","code_day":"9","text_night":"阵雨","code_night":"10","high":"15","low":"11","rainfall":"0.0","precip":"","wind_direction":"西北","wind_direction_degree":"315","wind_speed":"16.20","wind_scale":"3","humidity":"90"},{"date":"2020-10-07","text_day":"�?","code_day":"9","text_night":"�?","code_night":"9","high":"15","low":"13","rainfall":"0.0","precip":"","wind_direction":"西北","wind_direction_degree":"315","wind_speed":"16.20","wind_scale":"3","humidity":"99"}],"last_update":"2020-10-05T11:17:55+08:00"}]}
+1day_updata_time = 2020-10-05T11:17:55+08:00
+AT  ack:OK
+AT+CIPCLOSE  ack:OK
+AT+CIPSTART="TCP","cgi.im.qq.com",80  ack:OK
+AT+CIPMODE=1  ack:OK
+�豸 AT+CIPSTART="TCP","cgi.im.qq.com",80
+AT+CIPSEND  ack:OK
+start trans...
+uddate:nettime!!!AT  ack:OK
+AT+CIPCLOSE  ack:OK
+AT+CIPSTART="TCP","api.seniverse.com",80  ack:OK
+AT+CIPMODE=1  ack:OK
+AT+CIPSEND  ack:OK
+start trans...
+jieshou->1dayjson = {"results":[{"location":{"id":"WSB118FZZ57Y","name":"衡阳","country":"CN","path":"衡阳,衡阳,湖南,中国","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"now":{"text":"�?","code":"9","temperature":"13"},"last_update":"2020-10-05T15:10:08+08:00"}]}
+wendu = 13
+1day_updata_time = 2020-10-05T15:10:08+08:00
+AT  ack:OK
+AT+CIPCLOSE  ack:OK
+AT+CIPSTART="TCP","api.seniverse.com",80  ack:OK
+AT+CIPMODE=1  ack:OK
+AT+CIPSEND  ack:OK
+start trans...
+jieshou->1dayjson = {"results":[{"location":{"id":"WSB118FZZ57Y","name":"衡阳","country":"CN","path":"衡阳,衡阳,湖南,中国","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"daily":[{"date":"2020-10-05","text_day":"小雨","code_day":"13","text_night":"�?","code_night":"9","high":"15","low":"12","rainfall":"0.1","precip":"","wind_direction":"�?","wind_direction_degree":"353","wind_speed":"25.20","wind_scale":"4","humidity":"72"},{"date":"2020-10-06","text_day":"�?","code_day":"9","text_night":"�?","code_night":"9","high":"17","low":"12","rainfall":"0.0","precip":"","wind_direction":"�?","wind_direction_degree":"5","wind_speed":"16.20","wind_scale":"3","humidity":"87"},{"date":"2020-10-07","text_day":"�?","code_day":"9","text_night":"�?","code_night":"9","high":"17","low":"13","rainfall":"0.0","precip":"","wind_direction":"�?","wind_direction_degree":"8","wind_speed":"16.20","wind_scale":"3","humidity":"88"}],"last_update":"2020-10-05T11:17:55+08:00"}]}
+1day_updata_time = 2020-10-05T11:17:55+08:00
+AT  ack:OK
+AT+CIPCLOSE  ack:OK
+AT  ack:OK
+AT+CIPSTATUS  ack::
+link normal!
+AT  ack:OK
+AT+CIPSTATUS  ack::
+link normal!
+AT  ack:OK
+AT+CIPSTATUS  ack::
+link normal!
+AT+CIPSTART="TCP","api.seniverse.com",80  ack:OK
+AT+CIPMODE=1  ack:OK
+AT+CIPSEND  ack:OK
+start trans...
+jieshou->1dayjson = {"results":[{"location":{"id":"WT029G15ETRJ","name":"长沙","country":"CN","path":"长沙,长沙,湖南,中国","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"now":{"text":"小雨","code":"13","temperature":"12"},"last_update":"2020-10-05T15:20:08+08:00"}]}
+wendu = 12
+1day_updata_time = 2020-10-05T15:20:08+08:00
+AT  ack:OK
+AT+CIPCLOSE  ack:OK
+AT+CIPSTART="TCP","api.seniverse.com",80  ack:OK
+AT+CIPMODE=1  ack:OK
+AT+CIPSEND  ack:OK
+start trans...
+jieshou->1dayjson = {"results":[{"location":{"id":"WT029G15ETRJ","name":"长沙","country":"CN","path":"长沙,长沙,湖南,中国","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"daily":[{"date":"2020-10-05","text_day":"小雨","code_day":"13","text_night":"小雨","code_night":"13","high":"14","low":"11","rainfall":"2.6","precip":"","wind_direction":"�?","wind_direction_degree":"0","wind_speed":"25.20","wind_scale":"4","humidity":"77"},{"date":"2020-10-06","text_day":"�?","code_day":"9","text_night":"阵雨","code_night":"10","high":"15","low":"11","rainfall":"0.0","precip":"","wind_direction":"西北","wind_direction_degree":"315","wind_speed":"16.20","wind_scale":"3","humidity":"90"},{"date":"2020-10-07","text_day":"�?","code_day":"9","text_night":"�?","code_night":"9","high":"15","low":"13","rainfall":"0.0","precip":"","wind_direction":"西北","wind_direction_degree":"315","wind_speed":"16.20","wind_scale":"3","humidity":"99"}],"last_update":"2020-10-05T11:17:55+08:00"}]}
+1day_updata_time = 2020-10-05T11:17:55+08:00
+AT  ack:OK
+AT+CIPCLOSE  ack:OK
+AT  ack:OK
+AT+CIPSTATUS  ack::
+link normal!
+AT  ack:OK
+AT+CIPSTATUS  ack::
+link normal!

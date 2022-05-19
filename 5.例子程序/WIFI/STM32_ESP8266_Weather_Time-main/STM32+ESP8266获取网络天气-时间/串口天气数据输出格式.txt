@@ -1,0 +1,8 @@
+当前天气情况：
+{"results":[{"location":{"id":"WT029G15ETRJ","name":"长沙","country":"CN","path":"长沙,长沙,湖南,中国","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"now":{"text":"小雨","code":"13","temperature":"14"},"last_update":"2020-10-05T07:10:00+08:00"}]}
+
+
+
+
+三天以内的天气情况：
+{"results":[{"location":{"id":"WT029G15ETRJ","name":"长沙","country":"CN","path":"长沙,长沙,湖南,中国","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"daily":[{"date":"2020-10-05","text_day":"小雨","code_day":"13","text_night":"小雨","code_night":"13","high":"14","low":"11","rainfall":"2.6","precip":"","wind_direction":"北","wind_direction_degree":"0","wind_speed":"25.20","wind_scale":"4","humidity":"77"},{"date":"2020-10-06","text_day":"阴","code_day":"9","text_night":"小雨","code_night":"13","high":"15","low":"11","rainfall":"0.0","precip":"","wind_direction":"西北","wind_direction_degree":"315","wind_speed":"16.20","wind_scale":"3","humidity":"90"},{"date":"2020-10-07","text_day":"阴","code_day":"9","text_night":"阴","code_night":"9","high":"15","low":"13","rainfall":"0.0","precip":"","wind_direction":"西北","wind_direction_degree":"315","wind_speed":"16.20","wind_scale":"3","humidity":"99"}],"last_update":"2020-10-05T07:36:02+08:00"}]}
